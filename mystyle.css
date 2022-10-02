@@ -75,16 +75,16 @@ div.image {
 }
 	
 div.maintext { 
-	position: relative;
+	position: absolute;
 	display: block;
 	left: var(--main-left);
 
 	width: 45.2em;  /*29.2em;*/
 
-	height: auto;
+	/*height: auto;
 	margin-right: auto;
 	margin-top: -8px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;*/
 	padding-top: var(--top); /*16.0em;*/
 }
 
