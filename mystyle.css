@@ -17,7 +17,8 @@ body {
 	font-family: "lucida grande", "lucida sans", verdana, sans-serif;
 	color: var(--sub-color); #333333;
 	font-size: 12pt;
-	line-height: 1.6em;}
+	line-height: 1.6em; 
+	display: block;}
 
 div.mainwrapper {
 	position: relative;
@@ -101,10 +102,10 @@ span.maintitle {
 	color:var(--main-color); }
 
 span.large {
-	font-size: 12pt; }
+	/*font-size: 12pt;*/ }
 	
 span.bflarge {
-	font-size: 12pt;
+	/*font-size: 12pt;*/
 	font-weight: bold; }	
 	
 span.menu {
@@ -181,7 +182,7 @@ p.col2 {
 /* Fonts */
   
 span.subtitle {
-	font-size: 12pt;
+	/*font-size: 12pt;*/
 	color: var(--sec-color); }
 
 span.mainttitle {
@@ -201,7 +202,7 @@ span.small {
   
 span.heading {
 	color: var(--main-color);
-	font-size: 12pt;}
+	/*font-size: 12pt;*/}
   
 
 b {
