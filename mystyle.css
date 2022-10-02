@@ -17,8 +17,7 @@ body {
 	font-family: "lucida grande", "lucida sans", verdana, sans-serif;
 	color: var(--sub-color); #333333;
 	font-size: 12pt;
-	line-height: 1.6em;
-	display: block;}
+	line-height: 1.6em;}
 
 div.mainwrapper {
 	position: relative;
