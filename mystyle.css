@@ -14,7 +14,7 @@ html {
 
 body {
 	/*background-color: #333333;*/
-	font-family: "lucida grande", "lucida sans", verdana, sans-serif;
+	font-family: system-ui, "lucida grande", "lucida sans", verdana, sans-serif;
 	color: var(--sub-color); #333333;
 	font-size: 12pt;
 	line-height: 1.6em; 
