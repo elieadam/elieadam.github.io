@@ -1,0 +1,271 @@
+
+:root {
+--extra-dark: #007077ff; //#003a96;
+--dark: #009ca6; //#384048;
+--light: #b1e4e3; //#e2e4e9; //#b7bfc7;
+--extra-light: #d9f2f2ff; 
+--white: #fcfbfb; //#FFFFFF;
+--black: #003033ff; //#1a1a1a; //#000000;
+--main-color: #e2e4e9;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	font-family: Roboto; //, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	//font-style: thin;
+}
+
+section {
+	background-color: var(--extra-light); //white; //#1ea2eb;
+	color: var(--extra-dark); //var(--dark); //white;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center; 
+	min-height: 100vh;
+	width: 100vw;
+	
+	font-size: 21px; //1.5vw;
+	font-family: Roboto; //, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+section > h1 {
+	font-size: 80px; //8vw;
+}
+
+h1 {
+	font-size: 80px; //4vw;
+	font-family: Roboto; //, Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+h2 {
+	font-size: 40px; //2vw;
+	font-family: Roboto; //, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+}
+h3 {
+	font-size: 21px; //1.5vw;
+	font-family: Roboto; //, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+
+section:nth-child(even) {
+	background-color: var(--white); //#708090; //#993333; //#f107ba;
+	color: var(--extra-dark); //var(--dark); //white;
+}
+
+section:first-child {
+	background-color: var(--black); //var(--dark);
+	color: var(--white); //var(--light); //white;
+}
+
+section:nth-last-child(2) {
+	//background-color: var(--dark);
+	//color: var(--light); //white;
+	background-color: var(--black); //var(--dark);
+	color: var(--white); //var(--light); //white;
+}
+
+
+
+.section-div {
+//	background-color: var(--black);
+	padding: 40px 40px; // need to change to vh
+}
+
+
+
+.intro-div {
+	text-align: center;
+	width: 100vw;
+}
+
+.research-div {
+	width: 900px; //800px;
+//	text-align: justify;
+    text-justify: inter-word;
+}
+
+.approach-div {
+	width: 1000px; //800px;
+	text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.team-div {
+	justify-content: center;
+	text-align: center;
+	width: max(50vw, 100vw - 1000px);
+	display: flex;
+	flex-flow: wrap;
+}
+
+.culture-div {
+	width: 1000px; //800px;
+	text-align: center;
+   text-justify: inter-word;
+}
+
+.contact-div {
+	width: 1000px; //800px;
+	text-align: center;
+   text-justify: inter-word;
+}
+
+	
+.team-member-div {
+//	background-color: var(--black);
+	padding: 40px 40px; //40px 40px; // need to change to vh
+	height: 200px;
+	width: 500px;
+}
+
+.pub-link {
+	color:var(--dark);
+}
+
+.pub-div {
+	justify-content: left;
+	text-align: left;
+	width: max(50vw, 100vw - 1200px);
+	display: flex;
+	flex-flow: wrap;
+}
+
+p > a {
+	color:var(--black);
+}
+p > a:hover {
+	color:var(--black);
+	weight:bold;
+}
+
+//img {
+//	  border-radius: 50%;
+//}
+
+.profile {
+	border-radius: 50%;
+}
+
+.title {
+	text-align: center;
+	//width: 100vw;
+}
+
+
+hr {
+  width: 100%;
+  height:80px;
+  border-width:0;
+}
+
+.zero {
+  height:0px;
+}
+
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+
+
+
+#navigation {
+	height: 84px; //10vh;
+	width: 100%;
+	background-color: var(--black); //rgba(1,1,1,1); //#111;
+	color: var(--white);
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center; //space-between; //center;
+	text-align: center;
+	padding-left: 0;
+}
+
+
+
+
+a { text-decoration: none; }
+a:hover { 
+	  text-shadow: 0 0 1px;
+		@include m-hover-firefox{
+			text-shadow: 0 0 .2px;
+      }
+}
+nav a { color:var(--white); }
+nav a.active {
+	font-weight: bold; 
+  }
+      
+      
+nav img{
+	display: inline-block;
+	padding: 22px 20px; // need to change to vh
+}
+
+      
+nav li{
+	display: inline-block;
+	padding: 10px 20px; // need to change to vh
+//	border-right: 1px solid #FFFFFF;
+//	text-align: center;
+//	width: 100px;
+}
+
+nav li:first-child {padding-left: 0;}
+
+//nav li:last-child {padding-right: 100px;}
+
+#navigation:not(.sticky) {
+	position: absolute;
+	bottom: 0;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+}
+
+
+a.collapsible{
+	color:var(--black);
+}
+a.collapsible:hover {
+	color:var(--black);
+//	weight:bold;
+}
+
+a.collapsible:active {
+	color:var(--black);
+//	weight:bold;
+}
+
+
+.pub-content {
+  //padding: 0 18px;
+  //background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.bio-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  text-align: left;
+  padding: 0px 0px;
+}
+
