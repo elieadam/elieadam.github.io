@@ -89,13 +89,13 @@ section:nth-last-child(2) {
 }
 
 .research-div {
-	width: 800px; //800px;
+	width: min(800px, 80vw); //800px;
 //	text-align: justify;
     text-justify: inter-word;
 }
 
 .approach-div {
-	width: 800px;
+	width: min(800px, 80vw);
 	text-align: justify;
   text-justify: inter-word;
 }
@@ -110,13 +110,13 @@ section:nth-last-child(2) {
 }
 
 .culture-div {
-	width: 800px;
+	width: min(800px, 80vw); //800px;
 	text-align: center;
    text-justify: inter-word;
 }
 
 .contact-div {
-	width: 800px;
+	width: min(800px, 80vw); //
 	text-align: center;
    text-justify: inter-word;
 }
