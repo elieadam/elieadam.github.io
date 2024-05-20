@@ -89,13 +89,13 @@ section:nth-last-child(2) {
 }
 
 .research-div {
-	width: 900px; //800px;
+	width: 66vw; 900px; //800px;
 //	text-align: justify;
     text-justify: inter-word;
 }
 
 .approach-div {
-	width: 50vw; //800px;
+	width: 66vw; //800px;
 	text-align: justify;
   text-justify: inter-word;
 }
@@ -110,13 +110,13 @@ section:nth-last-child(2) {
 }
 
 .culture-div {
-	width: 50vw; //800px;
+	width: 66vw; //800px;
 	text-align: center;
    text-justify: inter-word;
 }
 
 .contact-div {
-	width: 50vw; //800px;
+	width: 66vw; //800px;
 	text-align: center;
    text-justify: inter-word;
 }
@@ -183,7 +183,7 @@ hr {
 
 
 #navigation {
-	height: 4vw; //84px; //10vh;
+	height: 10vh; //84px; //10vh;
 	width: 100%;
 	background-color: var(--black); //rgba(1,1,1,1); //#111;
 	color: var(--white);
