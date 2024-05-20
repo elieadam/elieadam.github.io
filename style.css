@@ -116,7 +116,7 @@ section:nth-last-child(2) {
 }
 
 .contact-div {
-	width: min(900px, 80vw); //
+	width: min(900px, 80vw); //800px;
 	text-align: center;
    text-justify: inter-word;
 }
