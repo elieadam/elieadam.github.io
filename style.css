@@ -136,7 +136,7 @@ section:nth-last-child(2) {
 .pub-div {
 	justify-content: left;
 	text-align: left;
-	width: 80vw; //min(80vw, 80vh); //width: max(60vw, 100vw - 1200px);
+	width: 60vw; //min(80vw, 80vh); //width: max(60vw, 100vw - 1200px);
 	display: flex;
 	flex-flow: wrap;
 }
