@@ -78,7 +78,7 @@ section:nth-last-child(2) {
 
 .section-div {
 //	background-color: var(--black);
-	padding: 40px 40px; // need to change to vh
+	padding: 2vw 2vw; //40px 40px; // need to change to vh
 }
 
 
@@ -95,7 +95,7 @@ section:nth-last-child(2) {
 }
 
 .approach-div {
-	width: 1000px; //800px;
+	width: 50vw; //800px;
 	text-align: justify;
   text-justify: inter-word;
 }
@@ -110,13 +110,13 @@ section:nth-last-child(2) {
 }
 
 .culture-div {
-	width: 1000px; //800px;
+	width: 50vw; //800px;
 	text-align: center;
    text-justify: inter-word;
 }
 
 .contact-div {
-	width: 1000px; //800px;
+	width: 50vw; //800px;
 	text-align: center;
    text-justify: inter-word;
 }
@@ -124,9 +124,9 @@ section:nth-last-child(2) {
 	
 .team-member-div {
 //	background-color: var(--black);
-	padding: 40px 40px; //40px 40px; // need to change to vh
-	height: 200px;
-	width: 500px;
+	padding: 2vw 2vw; //40px 40px; // need to change to vh
+	height: 10vw; //200px;
+	width: 25vw; //500px;
 }
 
 .pub-link {
@@ -212,16 +212,16 @@ nav a.active {
       
 nav img{
 	display: inline-block;
-	padding: 22px 20px; // need to change to vh
+	padding: 1vw 1vw; // need to change to vh
 }
 
       
 nav li{
 	display: inline-block;
-	padding: 10px 20px; // need to change to vh
-//	border-right: 1px solid #FFFFFF;
+	padding: 0.5vw 1vw; //10px 20px; // need to change to vh
+//	border-right: 0.05vw solid #FFFFFF; //1px
 //	text-align: center;
-//	width: 100px;
+//	width: 5vw; //100px;
 }
 
 nav li:first-child {padding-left: 0;}
@@ -266,6 +266,6 @@ a.collapsible:active {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   text-align: left;
-  padding: 0px 0px;
+  padding: 0vw 0vw; //0px 0px;
 }
 
