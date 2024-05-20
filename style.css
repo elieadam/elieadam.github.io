@@ -183,7 +183,7 @@ hr {
 
 
 #navigation {
-	height: 7vh; //84px; //10vh;
+	height: 8vh; //84px; //10vh;
 	width: 100vw;
 	background-color: var(--black); //rgba(1,1,1,1); //#111;
 	color: var(--white);
