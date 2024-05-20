@@ -164,7 +164,7 @@ p > a:hover {
 
 
 hr {
-  //width: 100vw;
+  width: 80vw;
   height: 8vh; //80px; //4vw;
   border-width:0;
 }
