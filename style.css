@@ -16,7 +16,7 @@ html {
 
 body {
 	margin: 0;
-	font-family: Roboto, Ariel; //, Arial, Helvetica, sans-serif;
+	font-family: Roboto, Arial; //, Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	//font-style: thin;
 }
@@ -42,17 +42,17 @@ section > h1 {
 
 h1 {
 	font-size: 80px; //4vw;
-	font-family: Roboto, Ariel; //, Arial, Helvetica, sans-serif;
+	font-family: Roboto, Arial; //, Arial, Helvetica, sans-serif;
 	font-weight: 100;
 }
 h2 {
 	font-size: 40px; //2vw;
-	font-family: Roboto, Ariel; //, Arial, Helvetica, sans-serif;
+	font-family: Roboto, Arial; //, Arial, Helvetica, sans-serif;
 	font-weight: 300;
 }
 h3 {
 	font-size: 21px; //1.5vw;
-	font-family: Roboto, Ariel; //, Arial, Helvetica, sans-serif;
+	font-family: Roboto, Arial; //, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 }
 
