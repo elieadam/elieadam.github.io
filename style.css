@@ -47,13 +47,13 @@ h1 {
 }
 h2 {
 	font-size: 40px; //2vw;
-	font-family: Roboto, Arial; //, Arial, Helvetica, sans-serif;
-	//font-weight: 300;
+	font-family: Arial, Roboto, Arial; //, Arial, Helvetica, sans-serif;
+	font-weight: 300;
 }
 h3 {
 	font-size: 21px; //1.5vw;
-	font-family: Roboto, Arial; //, Arial, Helvetica, sans-serif;
-	//font-weight: 600;
+	font-family: Arial, Roboto, Arial; //, Arial, Helvetica, sans-serif;
+	font-weight: 600;
 }
 
 
