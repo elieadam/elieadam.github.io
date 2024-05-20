@@ -89,7 +89,7 @@ section:nth-last-child(2) {
 }
 
 .research-div {
-	width: 900px; //800px;
+	width: 800px; //800px;
 //	text-align: justify;
     text-justify: inter-word;
 }
@@ -164,13 +164,13 @@ p > a:hover {
 
 
 hr {
-  width: 100%;
+  width: 100vw;
   height: 8vh; //80px; //4vw;
   border-width:0;
 }
 
 .zero {
-  height:0vw;
+  height:0vh;
 }
 
 
