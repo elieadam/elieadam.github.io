@@ -89,7 +89,7 @@ section:nth-last-child(2) {
 }
 
 .research-div {
-	width: min(800px, 80vw); //800px;
+	width: min(900px, 80vw); //800px;
 //	text-align: justify;
     text-justify: inter-word;
 }
@@ -104,19 +104,19 @@ section:nth-last-child(2) {
 .team-div {
 	justify-content: center;
 	text-align: center;
-	width: max(50vw, 100vw - 1000px);
+	width: max(50vw, 100vw - 800px);
 	display: flex;
 	flex-flow: wrap;
 }
 
 .culture-div {
-	width: min(800px, 80vw); //800px;
+	width: min(900px, 80vw); //800px;
 	text-align: center;
    text-justify: inter-word;
 }
 
 .contact-div {
-	width: min(800px, 80vw); //
+	width: min(900px, 80vw); //
 	text-align: center;
    text-justify: inter-word;
 }
