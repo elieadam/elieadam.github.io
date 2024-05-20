@@ -31,27 +31,27 @@ section {
 	min-height: 100vh;
 	width: 100vw;
 	
-	font-size: 2vh; //1vw; //1.5vw;
+	font-size: min(2vh, 21px); //1vw; //1.5vw;
 	font-family: Roboto; //, Arial, Helvetica, sans-serif;
 	font-weight: 400;
 }
 
 section > h1 {
-	font-size: 8vh; //4vw;
+	font-size: min(8vh, 80px); //4vw;
 }
 
 h1 {
-	font-size: 8vh; //4vw;
+	font-size: min(8vh, 80px); //4vw;
 	font-family: Roboto; //, Arial, Helvetica, sans-serif;
 	font-weight: 100;
 }
 h2 {
-	font-size: 3.5vh; //1.75vw;
+	font-size: min(3.5vh, 30px); //1.75vw;
 	font-family: Roboto; //, Arial, Helvetica, sans-serif;
 	font-weight: 300;
 }
 h3 {
-	font-size: 2vh; //1vw;
+	font-size: min(2vh, 21px); //1vw;
 	font-family: Roboto; //, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 }
@@ -78,7 +78,7 @@ section:nth-last-child(2) {
 
 .section-div {
 //	background-color: var(--black);
-	padding: 4vh 4vh; //40px 40px; // need to change to vh
+	padding: min(4vh, 40px) min(4vh, 40px); //40px 40px; // need to change to vh
 }
 
 
@@ -104,7 +104,7 @@ section:nth-last-child(2) {
 .team-div {
 	justify-content: center;
 	text-align: center;
-	width: max(70vw, 100vw - 800px);
+	width: max(80vw, 100vw - 800px);
 	display: flex;
 	flex-flow: wrap;
 }
@@ -165,7 +165,7 @@ p > a:hover {
 
 hr {
   width: 100vw;
-  height: 8vh; //80px; //4vw;
+  height: min(8vh, 80px); //80px; //4vw;
   border-width:0;
 }
 
@@ -183,7 +183,7 @@ hr {
 
 
 #navigation {
-	height: 8vh; //84px; //10vh;
+	height: min(8vh, 80px); //84px; //10vh;
 	width: 100vw;
 	background-color: var(--black); //rgba(1,1,1,1); //#111;
 	color: var(--white);
