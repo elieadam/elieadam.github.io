@@ -218,7 +218,7 @@ nav img{
       
 nav li{
 	display: inline-block;
-	padding: 0.5vw 1vw; //10px 20px; // need to change to vh
+	padding: 10px 20px; // need to change to vh
 //	border-right: 0.05vw solid #FFFFFF; //1px
 //	text-align: center;
 //	width: 5vw; //100px;
