@@ -165,12 +165,12 @@ p > a:hover {
 
 hr {
   width: 100%;
-  height:80px;
+  height:4vw;
   border-width:0;
 }
 
 .zero {
-  height:0px;
+  height:0vw;
 }
 
 
@@ -183,7 +183,7 @@ hr {
 
 
 #navigation {
-	height: 7vh; //84px; //10vh;
+	height: 8vh; //84px; //10vh;
 	width: 100%;
 	background-color: var(--black); //rgba(1,1,1,1); //#111;
 	color: var(--white);
