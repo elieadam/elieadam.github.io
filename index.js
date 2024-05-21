@@ -3,7 +3,9 @@ const sections = document.querySelectorAll('section');
 const as = document.querySelectorAll('a');
 let prev_current = null;
 
-let shouldStickPosition = window.innerHeight - navbar.offsetHeight; //navbar.offsetTop;
+let introSection = document.getElementById("intro-section");
+//let shouldStickPosition = window.innerHeight - navbar.offsetHeight; //navbar.offsetTop;
+let shouldStickPosition = introSection.offsetHeight - navbar.offsetHeight;
 
 function addOrRemoveStickyClass() {
 	if (window.pageYOffset >= shouldStickPosition){
