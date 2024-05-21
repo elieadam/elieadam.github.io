@@ -75,8 +75,8 @@ section:nth-last-child(2) {
 }
 
 
-.intro-section {
-	min-height: 100lvh;
+#intro-section {
+	min-height: 100svh;
 	}
 
 .intro-div {
