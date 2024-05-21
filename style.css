@@ -28,7 +28,7 @@ section {
 	flex-flow: wrap;
 	justify-content: center;
 	align-items: center;
-	min-height: 100dvh;
+	min-height: 100lvh;
 	width: 100vw;
 	
 	font-size: min(2vh, 18px); //1vw; //1.5vw;
