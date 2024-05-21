@@ -75,7 +75,9 @@ section:nth-last-child(2) {
 }
 
 
-
+.intro-section {
+	height: 100svh;
+	}
 
 .intro-div {
 	text-align: center;
