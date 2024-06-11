@@ -127,7 +127,7 @@ section:nth-last-child(2) {
 //	background-color: var(--black);
 	padding: 20px 20px; // 40px 40px // need to change to vh
 	height: 200px;
-	width: 350px; //500px;
+	width: 400px; //500px;
 }
 
 .profile {
